@@ -1,0 +1,55 @@
+.MainDiv {
+    width:400px; 
+    height:740px;  
+    border-radius: 40px 40px 40px 40px; 
+    background:#FDFFFC;
+}
+
+
+.HeadCol {
+    border-radius: 40px 40px 0px 0px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+.lightText {
+    font-weight: 300;
+}
+
+.outer-circle {
+    background: #30b400;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+  }
+.inner-circle {
+    position: absolute;
+    background: #30b400;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0px 0px -30px;
+}
+
+.cameraBtn {
+    position: relative;
+}
+
+.topInstructionImg {
+    width: 250px; 
+    height:250px; 
+    border:1px solid green;
+}
+.takeAgainBtn {
+    width: 100%; 
+    border: 1.5px solid #0070D2;
+}
+.yesBtn {
+    background-color: #30b400;
+    width: 100%; 
+    color: white;
+}

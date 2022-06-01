@@ -1,0 +1,47 @@
+.MainDiv {
+    width:400px; 
+    height:740px;  
+    border-radius: 40px 40px 40px 40px; 
+    background:#FDFFFC;
+}
+
+
+.HeadCol {
+    border-radius: 40px 40px 0px 0px;
+}
+.outer-circle {
+    background: #30b400;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+  }
+.inner-circle {
+    position: absolute;
+    background: #30b400;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0px 0px -30px;
+    border: 1.5px solid white;
+}
+
+.cameraView{
+    max-height: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-sizing: border-box;
+    border: 1px solid green
+}
+.cameraBtn {
+    position: relative;
+}
+
+.boldText {
+    font-weight: bold;
+}
+.lightText {
+    font-weight: 300;
+}

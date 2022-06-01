@@ -1,0 +1,269 @@
+/* */
+.MainDiv {
+    width:400px; 
+    height:740px;  
+    border-radius: 40px 40px 40px 40px; 
+    background:#FDFFFC;
+  }
+  .HeadCol {
+    border-radius: 40px 40px 0px 0px;
+  }
+  /* */
+  
+  
+  .MainHeadCol {
+    background-color: #011627;
+    border-radius: 40px 40px 0px 0px;
+    
+  }
+  .CompanyName {
+    color: white;
+    
+  }
+  .boldText {
+    font-weight: bold;
+  }
+  .lightText {
+    font-weight: 300;
+  }
+  .launchCameraBtn {
+    background-color: #30b400;
+    width: 100%; 
+    color: white;
+  }
+  .mainStepsBox {
+    width: 100%;
+  }
+  .topInstructionImg {
+    width: 100px; 
+    height:100px; 
+    border:1px solid green;
+  }
+  
+  
+  /* upload id step 1*/
+  
+  
+  .outer-circle {
+    background: #30b400;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+  }
+  .inner-circle {
+    position: absolute;
+    background: #30b400;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0px 0px -30px;
+    border: 1.5px solid white;
+  }
+  
+  .cameraView{
+    max-height: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    box-sizing: border-box;
+    border: 1px solid green
+  }
+  .cameraBtn {
+    position: relative;
+  }
+  
+  .boldText {
+    font-weight: bold;
+  }
+  .lightText {
+    font-weight: 300;
+  }
+  /* upload id step 2*/
+  
+  
+  
+  
+  
+  
+  .cameraView1{
+    max-height: 450px;
+    max-width: 90%;
+    min-height: 450px;
+    box-sizing: border-box;
+    border: 1px solid green
+  }
+  .boldText {
+    font-weight: bold;
+  }
+  .lightText {
+    font-weight: 300;
+  }
+  
+  .takeAgainBtn {
+    width: 100%; 
+    border: 1.5px solid #0070D2;
+  }
+  .yesBtn {
+    background-color: #30b400;
+    width: 100%; 
+    color: white;
+  }
+  
+  /* upload id step 2*/
+  
+  
+  
+  .boldText {
+    font-weight: bold;
+  }
+  .lightText {
+    font-weight: 300;
+  }
+  
+  
+  .topInstructionImg {
+    width: 250px; 
+    height:250px; 
+    border:1px solid green;
+  }
+  .launchCameraBtn {
+    background-color: #30b400;
+    width: 100%; 
+    color: white;
+  }
+  
+  
+  /* upload id step 2*/
+  
+  
+  
+  
+  
+  .boldText {
+    font-weight: bold;
+  }
+  .lightText {
+    font-weight: 300;
+  }
+  
+  .outer-circle {
+    background: #30b400;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+  }
+  .inner-circle {
+    position: absolute;
+    background: #30b400;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0px 0px -30px;
+  }
+  
+  .cameraBtn1 {
+    position: relative;
+  }
+  .cameraBtnText1{
+    padding-top: 23%;
+    color: white
+  }
+  
+  
+  .topInstructionImg1 {
+    width: 350px; 
+    height:340px; 
+    border:1px solid green;
+  }
+  .secureCodeBox {
+    width: 100%;
+    padding-top: 0; 
+    padding-bottom: 0;
+  }
+  
+  
+  /**/
+  
+  
+  
+  
+  .boldText {
+    font-weight: bold;
+  }
+  .lightText {
+    font-weight: 300;
+  }
+  
+  .outer-circle {
+    background: #30b400;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+  }
+  .inner-circle {
+    position: absolute;
+    background: #30b400;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0px 0px -30px;
+  }
+  
+  .cameraBtn {
+    position: relative;
+  }
+  
+  .topInstructionImg2 {
+    width: 250px; 
+    height:250px; 
+    border:1px solid green;
+  }
+  .takeAgainBtn {
+    width: 100%; 
+    border: 1.5px solid #0070D2;
+  }
+  .yesBtn {
+    background-color: #30b400;
+    width: 100%; 
+    color: white;
+  }
+  /**/
+  
+  
+  
+  
+  .boldText {
+    font-weight: bold;
+  }
+  .lightText {
+    font-weight: 300;
+  }
+  
+  .finishBtn {
+    background-color: #30b400;
+    width: 100%; 
+    color: white;
+  }
+  
+  .topInstructionImg3 {
+    width: 350px; 
+    height:150px; 
+    border:1px solid green;
+  }
+  .takeAgainBtn {
+    width: 100%; 
+    border: 1.5px solid #0070D2;
+  }
+  .yesBtn {
+    background-color: #30b400;
+    width: 100%; 
+    color: white;
+  }

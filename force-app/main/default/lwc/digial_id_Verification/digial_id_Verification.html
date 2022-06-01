@@ -1,0 +1,317 @@
+<template>
+        <div class="MainDiv" >
+            <div class="slds-grid slds-wrap">
+                <div class="MainHeadCol slds-col slds-size_12-of-12 slds-text-align_center slds-p-top_x-large slds-p-bottom_x-small">
+                    <p class="boldText CompanyName slds-text-heading_large">K&H_</p>
+                </div>
+                <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_large">
+                    <div class="topInstructionImg">img</div>
+                </div>
+                <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_x-large">
+                    <div>
+                        <p class="boldText slds-text-heading_medium">Upload your ID</p>
+                    </div>
+                </div>
+                <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-p-left_large slds-p-right_large slds-m-top_x-small">
+                    <div>
+                        <p class="slds-text-align_center slds-text-heading_small">In order to complete your application we need to be 100% sure that you are you.</p>
+                    </div>
+                </div>
+                <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_xx-small">
+                    <div>
+                        <p>This take about 60 seconds.</p>    
+                    </div>
+                </div>
+                <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_x-large slds-p-horizontal_large">
+                    <div class="mainStepsBox slds-box">
+                        <div class="slds-grid">
+                            <div class="slds-col slds-size_1-of-12">
+                                <span></span>
+                            </div>
+                            <div class="slds-col slds-size_2-of-12 slds-m-right_x-small">
+                                <span>image</span>
+                            </div>
+                            <div class="slds-col slds-size_7-of-12">
+                                <div class="slds-grid slds-wrap">
+                                    <div class="lightText slds-col slds-text-heading_small  slds-size_12-of-12">
+                                        <p>STEP 1</p>
+                                    </div>
+                                    <div class="slds-col slds-size_12-of-12 slds-m-top_xx-small">
+                                        <p class="boldText slds-text-heading_small">Photo ID</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_2-of-12">
+                                <span>image</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-p-horizontal_large">
+                    <div style="width: 100%;" class="slds-box">
+                        <div class="slds-grid">
+                            <div class="slds-col slds-size_1-of-12">
+                                <span></span>
+                            </div>
+                            <div class="slds-col slds-size_2-of-12 slds-m-right_x-small">
+                                <span>image</span>
+                            </div>
+                            <div class="slds-col slds-size_7-of-12">
+                                <div class="slds-grid slds-wrap">
+                                    <div class="lightText slds-col slds-text-heading_small  slds-size_12-of-12">
+                                        <p>STEP 2</p>
+                                    </div>
+                                    <div class="slds-col slds-size_12-of-12 slds-m-top_xx-small">
+                                        <p class="boldText slds-text-heading_small">Take a clip</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_2-of-12">
+                                <span>image</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-p-horizontal_large">
+                    <div style="width: 100%;" class="slds-box">
+                        <div class="slds-grid">
+                            <div class="slds-col slds-size_1-of-12">
+                                <span></span>
+                            </div>
+                            <div class="slds-col slds-size_2-of-12 slds-m-right_x-small">
+                                <span>image</span>
+                            </div>
+                            <div class="slds-col slds-size_7-of-12">
+                                <div class="slds-grid slds-wrap">
+                                    <div class="lightText slds-col slds-text-heading_small  slds-size_12-of-12">
+                                        <p>STEP 3</p>
+                                    </div>
+                                    <div class="slds-col slds-size_12-of-12 slds-m-top_xx-small">
+                                        <p class="boldText slds-text-heading_small">e-sign docs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_2-of-12">
+                                <span>image</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-p-horizontal_large">
+                    <button class="launchCameraBtn boldText slds-button slds-button_neutral slds-p-vertical_medium slds-text-heading_medium">LAUNCH CAMERA</button>
+                </div>
+                <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_medium slds-p-horizontal_large">
+                    <p class="slds-text-heading_small"><u>Why is this needed?</u></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="MainDiv" if:true={maindiv}>
+                <div class="slds-grid slds-wrap">
+                    <div class="HeadCol slds-col slds-size_12-of-12 slds-text-align_center slds-p-top_x-large slds-p-bottom_x-small">
+                        <p class="boldText titleText slds-text-heading_medium">Upload your ID</p>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-text-align_center">
+                        <div class="cameraView">
+                            Camera View
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-text-align_center slds-m-top_xx-small">
+                        <p class="titleText lds-text-body_regular">Take picture when your ID is in focus</p>
+                    </div>
+                </div>
+                <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_medium">
+                    <div class="cameraBtn slds-align_absolute-center ">
+                        <div class="outer-circle">
+                            <div class="inner-circle">
+                            </div>
+                          </div>
+                    </div>  
+                </div>
+                <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_x-small ">
+                    <p class="titleText slds-text-heading_small">Click to capture</p>
+                </div>
+        </div>
+        <div class="MainDiv" if:true={maindiv}>
+                <div class="slds-grid slds-wrap">
+                    <div class="HeadCol slds-col slds-size_12-of-12 slds-text-align_center slds-p-top_x-large slds-p-bottom_x-small">
+                        <p class="boldText titleText slds-text-heading_medium">Upload your ID</p>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-text-align_center slds-p-vertical_large">
+                        <div class="cameraView1 slds-align_absolute-center">
+                            Camera View
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-text-align_center slds-m-top_xx-small">
+                        <p class="boldText titleText slds-text-heading_small">Is the picture in focus?</p>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-text-align_center slds-m-top_x-large slds-p-horizontal_large">
+                        <div class="slds-grid">
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_x-small">
+                                <button class="takeAgainBtn boldText slds-button slds-button_neutral slds-p-vertical_medium slds-text-heading_small">Take Again</button>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_x-small">
+                                <button class="yesBtn boldText slds-button slds-button_neutral slds-p-vertical_medium slds-text-heading_small">Yes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="MainDiv" if:true={maindiv}>
+                <div class="slds-grid slds-wrap">
+                    <div class="HeadCol slds-col slds-size_12-of-12 slds-text-align_center slds-p-top_x-large slds-p-bottom_x-small">
+                        <p class="boldText titleText slds-text-heading_medium">verify It's you</p>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_large">
+                        <div class="topInstructionImg">img</div>
+                    </div>
+                    <div  class="slds-col slds-size_12-of-12 slds-m-top_x-large slds-p-horizontal_large">
+                        <div class="slds-grid slds-wrap">
+                            <div class="slds-col slds-size_12-of-12 slds-m-top_large slds-text-heading_small">
+                                To verify it's you follow these four steps:
+                            </div>
+                            <div class="slds-col slds-size_12-of-12 slds-m-top_medium">
+                                <div class="slds-grid">
+                                    <div class="slds-col slds-size_1-of-12">
+                                        <span class="slds-text-heading_small">1.</span>
+                                    </div>
+                                    <div class="slds-col slds-size_11-of-12">
+                                        <span class="slds-text-heading_small">Click YES to enable access to camera and microphone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_12-of-12">
+                                <div class="slds-grid">
+                                    <div class="slds-col slds-size_1-of-12">
+                                        <span class="slds-text-heading_small">2.</span>
+                                    </div>
+                                    <div class="slds-col slds-size_11-of-12">
+                                        <span class="slds-text-heading_small">Hold the phone so your face is clearly visible</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_12-of-12">
+                                <div class="slds-grid">
+                                    <div class="slds-col slds-size_1-of-12">
+                                        <span class="slds-text-heading_small">3.</span>
+                                    </div>
+                                    <div class="slds-col slds-size_11-of-12">
+                                        <span class="slds-text-heading_small">Click START to begin the 3 second recording</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-col slds-size_12-of-12">
+                                <div class="slds-grid">
+                                    <div class="slds-col slds-size_1-of-12">
+                                        <span class="slds-text-heading_small">4.</span>
+                                    </div>
+                                    <div class="slds-col slds-size_11-of-12">
+                                        <span class="slds-text-heading_small">Speak the 4 digit SECURE CODE clearly into the video</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_x-large slds-p-horizontal_large">
+                        <button class="launchCameraBtn boldText slds-button slds-button_neutral slds-p-vertical_medium slds-text-heading_medium">LAUNCH FRONT CAMERA</button>
+                    </div>
+                </div>
+        </div>
+        <div class="MainDiv" if:true={maindiv}>
+                <div class="slds-grid slds-wrap slds-text-align_center">
+                    <div class="HeadCol slds-col slds-size_12-of-12  slds-p-top_x-large slds-p-bottom_x-small">
+                        <p class="boldText titleText slds-text-heading_medium">verify It's you</p>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_large">
+                        <div class="topInstructionImg1">img</div>
+                    </div>
+                    <div  class="slds-col slds-size_12-of-12 slds-m-top_xxx-small slds-p-horizontal_large">
+                            <div class="slds-col slds-size_12-of-12 slds-m-top_medium slds-text-heading_small slds-p-horizontal_medium ">
+                                Click <span class="boldText">START</span> then speak the 4-digit secure code into the phone.
+                            </div>
+                    </div>
+                    <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_medium slds-p-horizontal_large">
+                        
+                        <div class="secureCodeBox mainStepsBox slds-box slds-m-horizontal_medium ">
+                            <div class="slds-grid slds-wrap slds-text-align_center slds-m-vertical_xx-small">
+                                <div class="boldText slds-col slds-size_12-of-12 ">
+                                    SECURE CODE
+                                </div>
+                                <div style="font-size: 40px;" class="boldText slds-col slds-size_12-of-12 slds-text-heading_large">
+                                    1145
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-p-horizontal_large">
+                        <div class="cameraBtn1 slds-align_absolute-center ">
+                            <div class="outer-circle">
+                                <div class="cameraBtnText1 boldText inner-circle slds-text-align_center slds-text-heading_medium">
+                                    START
+                                </div>
+                              </div>
+                        </div>  
+                    </div>
+                    <div  class="slds-col slds-size_12-of-12 slds-m-top_xxx-small slds-p-horizontal_large">
+                        <div class="slds-col slds-size_12-of-12 slds-m-top_small slds-text-heading_small slds-p-horizontal_medium ">
+                            <div class="slds-p-horizontal_medium ">
+                                The recording with automatically stop after 3 seconds
+                            </div>
+                           
+                        </div>
+                </div>
+                </div>
+        </div>
+        <div class="MainDiv" if:true={maindiv}>
+                <div class="slds-grid slds-wrap slds-text-align_center">
+                    <div class="HeadCol slds-col slds-size_12-of-12  slds-p-top_x-large slds-p-bottom_x-small">
+                        <p class="boldText titleText slds-text-heading_medium">verify It's you</p>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_large">
+                        <div class="topInstructionImg2">img</div>
+                    </div>
+                    <div  class="slds-col slds-size_12-of-12 slds-m-top_xx-large slds-p-horizontal_large">
+                            <div class="slds-col slds-size_12-of-12 slds-m-top_medium slds-text-heading_small slds-p-horizontal_medium ">
+                                <p class="boldText">Is the secure code audible?</p>
+                            </div>
+                    </div>
+                    <div  class="slds-col slds-size_12-of-12 slds-m-top_xxx-small slds-m-bottom_xx-large slds-p-horizontal_large">
+                            <div class="slds-col slds-size_12-of-12 slds-m-top_medium slds-text-heading_small slds-p-horizontal_xx-large ">
+                               <p>(check that your volume is up if you can't hear yourself)</p>
+                            </div>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-text-align_center slds-m-top_xx-large slds-p-top_xx-large slds-p-horizontal_large">
+                        <div class="slds-grid">
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_x-small">
+                                <button class="takeAgainBtn boldText slds-button slds-button_neutral slds-p-vertical_medium slds-text-heading_small">Take Again</button>
+                            </div>
+                            <div class="slds-col slds-size_6-of-12 slds-p-horizontal_x-small">
+                                <button class="yesBtn boldText slds-button slds-button_neutral slds-p-vertical_medium slds-text-heading_small">Yes</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_medium slds-p-horizontal_large">
+                        <p class="slds-text-heading_small"><u>I need help with this</u></p>
+                    </div>
+                </div>
+        </div>
+        <div  class="MainDiv slds-p-vertical_large" if:true={maindiv}>
+                <div style=" height: 100%; position: relative; border:1px solid red"  class="slds-grid slds-wrap slds-text-align_center">
+                    <div style="bottom: 0; position: absolute; " class="slds-col slds-size_12-of-12">
+                        <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-m-bottom_medium slds-p-horizontal_small">
+                            <p style="color: rgb(25, 126, 25);" class="boldText slds-text-heading_small">To sign use your finger in the signature panel below then click finish.</p>
+                        </div>
+                        <div class="slds-col slds-size_12-of-12 slds-align_absolute-center">
+                            <div class="topInstructionImg3">Sign</div>
+                        </div>
+                        <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-m-bottom_medium">
+                            <p class="slds-text-heading_small"><u>Clear and redo</u></p>
+                        </div>
+                        <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-p-vertical_small slds-p-horizontal_large">
+                            <button class="finishBtn boldText slds-button slds-button_neutral slds-p-vertical_medium slds-text-heading_medium">FINISH</button>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+        
+    </template>

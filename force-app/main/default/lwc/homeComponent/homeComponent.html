@@ -1,0 +1,122 @@
+<template>
+    <div class="MainDiv" if:true={isHomePage}>
+        <div class="slds-grid slds-wrap">
+            <div class="HeadCol slds-col slds-size_12-of-12 slds-text-align_center slds-p-top_x-large slds-p-bottom_x-small">
+                <p class="boldText CompanyName slds-text-heading_large">K&H_</p>
+            </div>
+            <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_large">
+                <div class="topInstructionImg">img</div>
+            </div>
+            <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_x-large">
+                <div>
+                    <p class="boldText slds-text-heading_medium">Upload your ID</p>
+                </div>
+            </div>
+            <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-p-left_large slds-p-right_large slds-m-top_x-small">
+                <div>
+                    <p class="slds-text-align_center slds-text-heading_small">In order to complete your application we need to be 100% sure that you are you.</p>
+                </div>
+            </div>
+            <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_xx-small">
+                <div>
+                    <p>This take about 60 seconds.</p>    
+                </div>
+            </div>
+            <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_x-large slds-p-horizontal_large">
+                <div class="mainStepsBox slds-box">
+                    <div class="slds-grid">
+                        <div class="slds-col slds-size_1-of-12">
+                            <span></span>
+                        </div>
+                        <div class="slds-col slds-size_2-of-12 slds-m-right_x-small">
+                            <span>image</span>
+                        </div>
+                        <div class="slds-col slds-size_7-of-12">
+                            <div class="slds-grid slds-wrap">
+                                <div class="lightText slds-col slds-text-heading_small  slds-size_12-of-12">
+                                    <p>STEP 1</p>
+                                </div>
+                                <div class="slds-col slds-size_12-of-12 slds-m-top_xx-small">
+                                    <p class="boldText slds-text-heading_small">Photo ID</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-size_2-of-12">
+                            <span>image</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-p-horizontal_large">
+                <div style="width: 100%;" class="slds-box">
+                    <div class="slds-grid">
+                        <div class="slds-col slds-size_1-of-12">
+                            <span></span>
+                        </div>
+                        <div class="slds-col slds-size_2-of-12 slds-m-right_x-small">
+                            <span>image</span>
+                        </div>
+                        <div class="slds-col slds-size_7-of-12">
+                            <div class="slds-grid slds-wrap">
+                                <div class="lightText slds-col slds-text-heading_small  slds-size_12-of-12">
+                                    <p>STEP 2</p>
+                                </div>
+                                <div class="slds-col slds-size_12-of-12 slds-m-top_xx-small">
+                                    <p class="boldText slds-text-heading_small">Take a clip</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-size_2-of-12">
+                            <span>image</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-p-horizontal_large">
+                <div style="width: 100%;" class="slds-box">
+                    <div class="slds-grid">
+                        <div class="slds-col slds-size_1-of-12">
+                            <span></span>
+                        </div>
+                        <div class="slds-col slds-size_2-of-12 slds-m-right_x-small">
+                            <span>image</span>
+                        </div>
+                        <div class="slds-col slds-size_7-of-12">
+                            <div class="slds-grid slds-wrap">
+                                <div class="lightText slds-col slds-text-heading_small  slds-size_12-of-12">
+                                    <p>STEP 3</p>
+                                </div>
+                                <div class="slds-col slds-size_12-of-12 slds-m-top_xx-small">
+                                    <p class="boldText slds-text-heading_small">e-sign docs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-size_2-of-12">
+                            <span>image</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div  class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_small slds-p-horizontal_large">
+                <button  class="launchCameraBtn boldText slds-button slds-button_neutral slds-p-vertical_medium slds-text-heading_medium" onclick={changeOptionEvent} >
+                    <div  class="mainHomeButtonText" lwc:dom="manual">
+
+                    </div>
+                </button>
+            </div>
+            <div class="slds-col slds-size_12-of-12 slds-align_absolute-center slds-m-top_medium slds-p-horizontal_large">
+                <p class="slds-text-heading_small"><u>Why is this needed?</u></p>
+            </div>
+        </div>
+        
+    </div>
+    <div  if:true={isUploadIDPage}>
+      <c-upload_your_id onchangesection={sectionHandler}></c-upload_your_id>
+    </div>
+    <div  if:true={isUploadVideoPage}>
+        <c-upload_your_video onchangesection={videoSectionHandler}></c-upload_your_video>
+    </div>
+    <div  if:true={isUploadSignaturePage}>
+        <c-upload_your_signature></c-upload_your_signature>
+    </div>
+</template>
